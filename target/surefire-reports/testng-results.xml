@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="28753" started-at="2021-09-18T11:51:55 IST" finished-at="2021-09-18T11:52:24 IST">
+    <groups>
+    </groups>
+    <test name="Cart Page title verification Test" duration-ms="8908" started-at="2021-09-18T11:51:55 IST" finished-at="2021-09-18T11:52:04 IST">
+      <class name="Academy.ValidateCartPageTitle">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.ValidateCartPageTitle@693fe6c9]" name="initialize" is-config="true" duration-ms="3696" started-at="2021-09-18T11:51:55 IST" finished-at="2021-09-18T11:51:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="validatePageTitle()[pri:0, instance:Academy.ValidateCartPageTitle@693fe6c9]" name="validatePageTitle" duration-ms="1006" started-at="2021-09-18T11:51:59 IST" finished-at="2021-09-18T11:52:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePageTitle -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:Academy.ValidateCartPageTitle@693fe6c9]" name="closeDriver" is-config="true" duration-ms="4149" started-at="2021-09-18T11:52:00 IST" finished-at="2021-09-18T11:52:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- Academy.ValidateCartPageTitle -->
+    </test> <!-- Cart Page title verification Test -->
+    <test name="User Login validation" duration-ms="19551" started-at="2021-09-18T11:52:05 IST" finished-at="2021-09-18T11:52:24 IST">
+      <class name="Academy.UserLoginValidation">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:Academy.UserLoginValidation@759d26fb]" name="beforeTest" is-config="true" duration-ms="1118" started-at="2021-09-18T11:52:05 IST" finished-at="2021-09-18T11:52:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="loginValidation(java.lang.String,java.lang.String)[pri:0, instance:Academy.UserLoginValidation@759d26fb]" name="loginValidation" duration-ms="8457" started-at="2021-09-18T11:52:06 IST" data-provider="getData" finished-at="2021-09-18T11:52:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@rediff.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginValidation -->
+        <test-method status="PASS" signature="loginValidation(java.lang.String,java.lang.String)[pri:0, instance:Academy.UserLoginValidation@759d26fb]" name="loginValidation" duration-ms="5840" started-at="2021-09-18T11:52:14 IST" data-provider="getData" finished-at="2021-09-18T11:52:20 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[xyz@rediff.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xyz]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginValidation -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Academy.UserLoginValidation@759d26fb]" name="afterTest" is-config="true" duration-ms="4131" started-at="2021-09-18T11:52:20 IST" finished-at="2021-09-18T11:52:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- Academy.UserLoginValidation -->
+    </test> <!-- User Login validation -->
+  </suite> <!-- Suite -->
+</testng-results>
