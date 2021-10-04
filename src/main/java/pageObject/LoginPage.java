@@ -1,3 +1,4 @@
+//login page code
 package pageObject;
 
 import org.openqa.selenium.WebDriver;
@@ -6,6 +7,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class LoginPage {
+	//aaded code for login page
 	
 	public WebDriver driver;
 	
