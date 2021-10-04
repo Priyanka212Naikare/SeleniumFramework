@@ -11,4 +11,9 @@ public class GitDemo {
   {
 	  System.out.println("new method added");
   }
+  
+  public void mergeData()
+  {
+	  System.out.println("added new method merge data");
+  }
 }
