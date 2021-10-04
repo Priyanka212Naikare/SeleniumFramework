@@ -7,8 +7,5 @@ public class GitDemo {
 	  System.out.println("new branch added");
   }
   
-  public void setData()
-  {
-	  System.out.println("new method added");
-  }
+  
 }
