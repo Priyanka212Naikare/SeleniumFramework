@@ -1,3 +1,4 @@
+//home page code
 package pageObject;
 
 import org.openqa.selenium.WebDriver;
@@ -6,6 +7,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class HomePage {
+	
+	//code for home page
 	public WebDriver driver;
 	
 	@FindBy(css = "div#nav-cart-count-container")
